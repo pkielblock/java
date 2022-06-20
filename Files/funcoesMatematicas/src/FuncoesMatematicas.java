@@ -1,4 +1,4 @@
-public class Main {
+public class FuncoesMatematicas {
     public static void main(String[] args) {
         //Raiz quadrada
         double x = Math.sqrt(100);

@@ -1,6 +1,6 @@
 import java.util.Locale; //import to use locale
 
-public class Main {
+public class SaidaDeDados {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US); // set locale to US
 

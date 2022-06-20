@@ -1,4 +1,4 @@
-public class Main {
+public class Casting {
     public static void main(String[] args) {
         //Casting in Java
         int a, b;
