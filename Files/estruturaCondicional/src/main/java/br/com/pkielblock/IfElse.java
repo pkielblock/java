@@ -1,3 +1,5 @@
+package br.com.pkielblock;
+
 import java.util.Scanner;
 
 public class IfElse {
@@ -5,7 +7,7 @@ public class IfElse {
         int hora;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Quantas Horas?");
+        System.out.println("Que Horas Sao?");
         hora = sc.nextInt();
 
         if (hora > 0 && hora < 12) {

@@ -1,3 +1,5 @@
+package br.com.pkielblock;
+
 import java.util.Scanner;
 
 public class SwitchCase {

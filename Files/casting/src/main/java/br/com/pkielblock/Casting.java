@@ -1,3 +1,5 @@
+package br.com.pkielblock;
+
 public class Casting {
     public static void main(String[] args) {
         //Casting in Java
