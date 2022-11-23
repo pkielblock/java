@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.com.fatec.va4_1805_javafx_combo.CadastroController">
+   <children>
+      <Button fx:id="btnSair" layoutX="248.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#btnSair_click" text="sair" />
+   </children>
+</AnchorPane>

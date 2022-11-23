@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="226.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.Controller.ListaProprietarioController">
+    <stylesheets>
+        <URL value="@listaproprietario.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="tblProprietario" editable="true" layoutX="14.0" layoutY="14.0" prefHeight="199.0" prefWidth="569.0">
+        <columns>
+            <TableColumn fx:id="colSelecionado" prefWidth="28.0" />
+          <TableColumn fx:id="colCodigo" editable="false" prefWidth="122.0" text="Codigo" />
+          <TableColumn fx:id="colNome" editable="false" prefWidth="383.0" text="Nome" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
