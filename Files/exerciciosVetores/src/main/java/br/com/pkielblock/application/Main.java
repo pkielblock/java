@@ -1,6 +1,5 @@
 package br.com.pkielblock.application;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
