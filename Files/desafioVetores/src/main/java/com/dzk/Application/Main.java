@@ -1,7 +1,7 @@
 package com.dzk.Application;
 
 import java.util.Scanner;
-import com.dzk.Entities.Student;
+import com.dzk.Entities.Rent;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,24 +15,26 @@ public class Main {
         String name, email;
         int room;
 
-        Student[] vect = new Student[10];
+        Rent[] vect = new Rent[10];
 
         for (int i = 0; i < numberRooms; i++) {
             System.out.printf("Rent #%d%n", i+1);
-            System.out.println("Name: ");
+            System.out.print("Name: ");
+            sc.nextLine();
             name = sc.next();
-            System.out.println("Email: ");
+            System.out.print("Email: ");
             email = sc.next();
-            System.out.println("Room: ");
+            System.out.print("Room: ");
             room = sc.nextInt();
+            System.out.println(" ");
 
-            vect[room] = new Student(name, email, room);
+            vect[room] = new Rent(name, email, room);
         }
 
         System.out.println("Busy rooms: ");
-        for (Student student : vect) {
-            if (student != null) {
-                System.out.println(student.getRoom() + ": " + student.getName() + ", " + student.getEmail());
+        for (Rent rent : vect) {
+            if (rent != null) {
+                System.out.println(rent.getRoom() + ": " + rent.getName() + ", " + rent.getEmail());
             }
         }
 
