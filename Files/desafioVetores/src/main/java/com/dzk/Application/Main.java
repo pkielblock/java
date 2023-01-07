@@ -30,9 +30,9 @@ public class Main {
         }
 
         System.out.println("Busy rooms: ");
-        for (int i = 0; i < vect.length; i++) {
-            if (vect[i] != null) {
-                System.out.println(vect[i].getRoom() + ": " + vect[i].getName() + ", " + vect[i].getEmail());
+        for (Student student : vect) {
+            if (student != null) {
+                System.out.println(student.getRoom() + ": " + student.getName() + ", " + student.getEmail());
             }
         }
 
