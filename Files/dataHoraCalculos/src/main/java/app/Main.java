@@ -46,6 +46,6 @@ public class Main {
         Duration t4 = Duration.between(d06, pastWeekInstant);
         System.out.println("t4 dias = " + t4.toDays());
 
-        
+
     }
 }
