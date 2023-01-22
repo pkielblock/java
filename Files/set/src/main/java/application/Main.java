@@ -1,5 +1,8 @@
 package application;
 
+import entities.Product;
+import entities.Product2;
+
 import java.util.*;
 
 public class Main {
@@ -34,5 +37,26 @@ public class Main {
         Set<Integer> e = new TreeSet<>(a);
         e.removeAll(b);
         System.out.println(e);
+
+
+        //Comparing Set
+        Set<Product> setProduct = new HashSet<>();
+
+        setProduct.add(new Product("TV", 900.0));
+        setProduct.add(new Product("Notebook", 1200.0));
+        setProduct.add(new Product("Tablet", 400.0));
+
+        Product prod = new Product("Notebook", 1200.0);
+
+        System.out.println(setProduct.contains(prod));
+
+        //TreeSet - it uses comparable interface and compareTo method.
+        Set<Product2> setTreeSet = new TreeSet<>();
+        setTreeSet.add(new Product2("TV", 900.0));
+        setTreeSet.add(new Product2("Notebook", 1200.0));
+        setTreeSet.add(new Product2("Tablet", 400.0));
+        for (Product2 p : setTreeSet) {
+            System.out.println(p);
+        }
     }
 }
