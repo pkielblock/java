@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
         String path = "/tmp/in.txt";
 
+        //try with resources
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line = br.readLine();
 
