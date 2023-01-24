@@ -4,4 +4,4 @@ out/
 *.class
 target/
 db.properties
-Files/*/db.properties
+*.properties
