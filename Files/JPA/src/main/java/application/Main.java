@@ -26,11 +26,11 @@ public class Main {
         em.getTransaction().commit();
 
         //Gravar no banco
-//        em.getTransaction().begin();
-//        em.persist(p1);
-//        em.persist(p2);
-//        em.persist(p3);
-//        em.getTransaction().commit();
+        em.getTransaction().begin();
+        em.persist(p1);
+        em.persist(p2);
+        em.persist(p3);
+        em.getTransaction().commit();
         System.out.println("Foi");
 
         em.close();
